@@ -35,12 +35,12 @@ PubSub.prototype.emit = function(event, data){
 		}
 	}
 	
-	this.emitToListeners(args);
+	this.emitToListeners(event, args);
 	
 	return true;
 }
 
-PubSub.prototype.emitToListeners = function(args){	
+PubSub.prototype.emitToListeners = function(event, args){	
 	var oneEvent = null;
 	for(cur = 0, len = this.__events[event].length; cur < len; cur ++){
 		oneEvent = this.__events[event][cur];
