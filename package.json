@@ -1,0 +1,37 @@
+{
+  "name": "SimplePubSub",
+  "description": "Simple Publish/Subscriber class",
+  "version": "0.0.1",
+  "homepage": "https://github.com/samuelhough/SimplePubSub",
+  "author": {
+    "name": "SamuelHough",
+    "email": "stone.hough@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/samuelhough/SimplePubSub.git"
+  },
+  "bugs": {
+    "url": "https://github.com/samuelhough/SimplePubSub/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/samuelhough/SimplePubSub/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/SimplePubSub",
+  "engines": {
+    "node": "0.0.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.0",
+    "grunt": "~0.4.1"
+  },
+  "keywords": []
+}
